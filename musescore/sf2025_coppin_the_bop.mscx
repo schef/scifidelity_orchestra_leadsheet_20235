@@ -44,8 +44,10 @@
           <name>stdNormal</name>
           </StaffType>
         </Staff>
-      <trackName>Tenor</trackName>
+      <trackName>1.</trackName>
       <Instrument id="piano">
+        <longName>1.</longName>
+        <shortName>1.</shortName>
         <trackName>Piano</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
@@ -115,8 +117,10 @@
           <name>stdNormal</name>
           </StaffType>
         </Staff>
-      <trackName>Alt</trackName>
+      <trackName>2.</trackName>
       <Instrument id="piano">
+        <longName>2.</longName>
+        <shortName>2.</shortName>
         <trackName>Piano</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
@@ -179,13 +183,17 @@
         <Text>
           <style>Title</style>
           <offset x="0" y="-0.0364465"/>
-          <text><font size="22"/>Coppin' The Bop</text>
+          <text><font size="22"></font>Coppin' The Bop</text>
           </Text>
         <Text>
           <style>Composer</style>
           <align>right,top</align>
           <offset x="0" y="17.4613"/>
           <text>J.J. Johnson</text>
+          </Text>
+        <Text>
+          <style>Instrument Name (Part)</style>
+          <text>Tenor</text>
           </Text>
         </VBox>
       <Measure>
